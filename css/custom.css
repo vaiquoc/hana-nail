@@ -1,0 +1,248 @@
+/* Add here all your css styles (customizations) */
+
+/*GENERAL STYLES - ALL PAGES*/
+.bold
+{
+	font-weight: bold;
+}
+.italic
+{
+	font-style: italic;
+}
+.underline
+{
+	text-decoration: underline;
+}
+
+.main-colour{
+
+    color: #784888  !important;
+}
+
+.main-colour-2 {
+    color: #FF1920 !important;
+}
+
+.red-colour {
+    color: #FF1920 !important;
+}
+
+.dark-colour{
+
+    color: #000 !important;
+}
+
+.no-bottom-border 
+{
+    border-bottom: 0px !important;
+}
+
+.margin-bottom-5, 
+.margin-bottom-10, 
+.margin-bottom-15, 
+.margin-bottom-20,
+.margin-bottom-25, 
+.margin-bottom-30, 
+.margin-bottom-35, 
+.margin-bottom-40, 
+.margin-bottom-45, 
+.margin-bottom-50, 
+.margin-bottom-55, 
+.margin-bottom-60,
+.margin-bottom-100 { 
+   clear:both;
+}
+.margin-bottom-5  { margin-bottom:5px !important;}
+.margin-bottom-10 { margin-bottom:10px !important;}
+.margin-bottom-15 { margin-bottom:15px !important;}
+.margin-bottom-20 { margin-bottom:20px !important;}
+.margin-bottom-25 { margin-bottom:25px !important;}
+.margin-bottom-30 { margin-bottom:30px !important;}
+.margin-bottom-35 { margin-bottom:35px !important;}
+.margin-bottom-40 { margin-bottom:40px !important;}
+.margin-bottom-45 { margin-bottom:45px !important;}
+.margin-bottom-50 { margin-bottom:50px !important;}
+.margin-bottom-55 { margin-bottom:55px !important;}
+.margin-bottom-60 { margin-bottom:60px !important;}
+.margin-bottom-100 { margin-bottom:100px !important;}
+
+.margin-top-5, 
+.margin-top-10, 
+.margin-top-15, 
+.margin-top-20,
+.margin-top-25, 
+.margin-top-30 { 
+   clear:both;
+}
+
+.margin-top-5  { margin-top:5px !important;}
+.margin-top-10 { margin-top:10px !important;}
+.margin-top-15 { margin-top:15px !important;}
+.margin-top-20 { margin-top:20px !important;}
+.margin-top-25 { margin-top:25px !important;}
+.margin-top-30 { margin-top:30px !important;}
+
+.margin-left-5 { margin-left: 5px;}
+.margin-left-10 { margin-left: 10px;}
+.margin-right-5 { margin-right: 5px;}
+.margin-right-10 { margin-right: 10px;}
+.margin-right-20 { margin-right: 20px;}
+
+
+.list-unstyled {
+    line-height:  1.5;
+}
+
+.footer-section .list-unstyled {
+    line-height:  2;
+}
+
+.padding-right-10 {
+    padding-right: 10px !important;
+}
+
+.price-header-padding {    
+    padding-left: 60px !important;
+}
+
+
+/*Map*/
+.map-container {
+	height: 350px;
+	border: 3px solid #fff;
+	border-radius: 4px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.map-container iframe {
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+
+.instagram {
+    max-width: 200px;
+}
+
+
+.facebook {
+    max-width: 180px;
+}
+
+.pad-5{
+    padding: 5px;
+}
+
+#booking p {
+    margin-bottom: 10px !important;
+}
+
+.pricing-table-container p {
+    margin-bottom: 10px !important;
+}
+
+.booking-button{
+    max-width: 140px
+}
+
+#policy h3 {
+    font-size: 17px;
+    text-align: left;
+    margin-top: 15px !important;
+    margin-bottom: 8px !important;    
+}
+
+
+#policy h5 {
+    font-size: 18px;    
+    margin-bottom: 10px !important;
+    font-style: italic;
+    color: #784888  !important;
+}
+
+#policy p {
+    margin-bottom: 10px !important;
+}
+
+.salon-list ul {
+	padding-top: 3px;
+}
+
+.salon-list ul li {
+	margin-bottom: 15px;
+    text-align: left;    
+}
+
+.contact-methods
+{
+    line-height: 1.8;
+}
+
+.cash-only{
+    font-size: 18px !important;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.promo-box {
+    line-height: 1.4;
+    position: relative;
+    font-size: 1em;
+    display: block;
+    padding: 10px;
+    margin-bottom: 20px;
+    min-height: 60px;
+    max-width: 555px;
+    margin-right: auto;
+    margin-left: auto;    
+    border: 1px solid;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.promo-box img
+{
+    padding-right: 10px;
+    max-width: 90px;
+}
+
+.promo-title {
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.info-boxes .info-box-icon2 {
+    text-align: center;
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    background-color: #ffffff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.info-box-icon2 img {
+    max-height: 85px;        
+}
+
+.photo {
+    display: table;
+}
+
+.photo img {
+    display: block;
+    height: auto;
+    width: 100%;
+}
